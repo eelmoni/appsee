@@ -1,6 +1,6 @@
 //
 //  Appsee.h
-//  Appsee v2.6.0
+//  Appsee v2.6.1
 //
 //  Copyright (c) 2019 Shift 6 Ltd. All rights reserved.
 //
@@ -22,7 +22,7 @@
     To use, simply call 'start:' in your 'applicationDidFinishLaunching:withOptions:' method. 
  *******************************************************************************************/
 
-@interface AppseeWireframesReact: NSObject
+@interface APRNAnalytics: NSObject
 
 /***************
  General Control
@@ -255,6 +255,7 @@ This method should be usually called right after the start: method.
  */
 +(void)setDelegate:(id<AppseeDelegate>)delegate;
 
+
 @end
 
 
@@ -280,4 +281,4 @@ This method should be usually called right after the start: method.
 
 @end
 
-@compatibility_alias Appsee AppseeWireframesReact;
+@compatibility_alias Appsee APRNAnalytics;

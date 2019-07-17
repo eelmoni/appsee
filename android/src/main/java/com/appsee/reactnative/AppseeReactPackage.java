@@ -216,7 +216,7 @@ public class AppseeReactPackage implements ReactPackage {
 	    }
 
 	    @ReactMethod
-	    public void set3rdPartyID(String systemName, String externalId, boolean isPersistent) {
+	    public void set3rdPartyID(String externalId, String systemName, boolean isPersistent) {
 		    Appsee.set3rdPartyId(systemName, externalId, isPersistent);
 	    }
 
